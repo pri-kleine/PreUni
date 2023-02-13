@@ -1,0 +1,22 @@
+*{
+    /* reset */
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background-color: white;
+    height: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content:space-around;
+    align-items:center;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
