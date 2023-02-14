@@ -1,0 +1,275 @@
+header{
+    position: absolute;
+    width: 1440px;
+    height: 0px;
+    left: 0px;
+    top: 88px;
+    
+    /* Grey */
+    border: 1px solid #E4E4E4;
+    background: #E4E4E4;
+    border-radius: nullpx;
+}
+
+#caixaBuscar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    position: absolute;
+    width: 320px;
+    height: 56px;
+    left: 311px;
+    top: 16px;
+    background: #F5F7FB;
+    border-radius: 8px;
+}
+
+#lupa{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #858798;
+    height: 23.999767303466797px;
+    width: 24.000028610229492px;
+    left: 0px;
+    top: 0.000244140625px;
+    border-radius: 0px;
+    background: #858798;
+}
+
+#palavraBuscar{
+    position: absolute;
+    width: 56px;
+    height: 20px;
+    left: 56px;
+    top: 18px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #858798;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 20px;
+    border-radius: nullpx;
+}
+
+/* ------------------------------------------------------- */
+
+#menu{
+    position: absolute;
+width: 263px;
+height: 936px;
+left: 0px;
+top: 88px;
+background: #FFFFFF;
+border-radius: 0px;
+}
+
+#iconesDashboard{
+    position: absolute;
+    left: 0%;
+    right: 54.17%;
+    top: 0%;
+    bottom: 66.67%;
+    background: #858798;
+    position: absolute;
+    left: 54.17%;
+    right: 0%;
+    top: 0%;
+    bottom: 41.67%;
+}
+
+#Dashboard{
+    width: 111px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #858798;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#iconePaciente{
+    position: absolute;
+    left: 3.86%;
+    right: 3.84%;
+    top: 0.84%;
+    bottom: 0.84%;
+    background: #0180FF;
+}
+
+#Pacientes{
+    width: 98px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0180FF;
+}
+
+#retanguloPacientes{
+    position: absolute;
+    width: 215px;
+    height: 56px;
+    left: 24px;
+    top: 184px;
+    background: #F5F7FB;
+    border-radius: 8px;
+    height: 56px;
+    width: 215px;
+    left: 24px;
+    top: 184px;
+    border-radius: 8px;
+}
+
+#iconePontuação{
+    position: absolute;
+    left: 8.53%;
+    right: 8.53%;
+    top: 0%;
+    bottom: 0%;
+    background: #858798;
+}
+
+#pontuação{
+    width: 110px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #858798;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#iconePerfil{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #858798;
+}
+
+#Perfil{
+    width: 53px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #858798;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+/* ------------------------------------------------------- */
+
+body{
+    background: #1E1E1E;
+}
+
+#palavrePacientes{
+    position: absolute;
+    width: 124px;
+    height: 29px;
+    left: 311px;
+    top: 120px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0B0C15;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: nullpx;
+}
+
+#retanguloAdicionar{
+    /* active-button */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px 16px 40px;
+    gap: 8px;
+    position: absolute;
+    width: 178px;
+    height: 52px;
+    left: 1214px;
+    top: 112px;
+    background: #0180FF;
+    border-radius: 8px;
+    // On click
+    // Navigate to: "Step 1";
+    // Animate: Instant;
+    animation-duration: 0ms;
+}
+
+#palavraAdicionar{
+    width: 98px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#divisãoDadosPacientes{
+    position: absolute;
+    width: 1081px;
+    height: 802px;
+    left: 311px;
+    top: 188px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(68, 86, 108, 0.08);
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px #44566C14;
+}
+
+
+
+
+
+
+
+
+
