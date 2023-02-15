@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
-
 *{
     /* reset */
     margin: 0;
     padding: 0;
-    background-color:white;
+    /* background-color:white; */
     list-style: none;
     text-decoration: none;
 }
@@ -23,6 +22,95 @@ header{
     height: auto;
 }
 
+
+
+.pacientes{
+  width: 98px;
+  height: 24px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0180FF;
+}
+
+.retanguloPacientes{
+  position: absolute;
+  width: 215px;
+  height: 56px;
+  left: 24px;
+  top: 184px;
+  background: #F5F7FB;
+  border-radius: 8px;
+  height: 56px;
+  width: 215px;
+  left: 24px;
+  top: 184px;
+  border-radius: 8px;
+}
+
+.palavraPacientes{
+  position: absolute;
+  width: 124px;
+  height: 29px;
+  left: 311px;
+  top: 120px;
+  font-family: 'Montserrat';
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0B0C15;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: nullpx;
+}
+
+.retanguloAdicionar{
+  /* active-button */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px 16px 40px;
+  gap: 8px;
+  position: absolute;
+  width: 178px;
+  height: 52px;
+  left: 1214px;
+  top: 112px;
+  background: #0180FF;
+  border: none;
+  border-radius: 8px;
+  /* // On click
+  // Navigate to: "Step 1";
+  // Animate: Instant;
+  animation-duration: 0ms; */
+}
+
+.palavraAdicionar{
+  width: 98px;
+  height: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: none;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 .menu{
     position: absolute;
     width: 263px;
